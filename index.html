@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+</head>
+<body>
+
+
+    <input type="text" id="today" onkeyup="myFuntion()">
+    <br>
+    <label type="text" id="display" onkeyup="myFuntion()">
+    <!-- <button onclick="myFuntion()">Try it</button> -->
+    <!-- <input type="text" id="fusername" onkeyup="myFuntion()"> -->
+    <span id="demo"></span>
+    <script> 
+    function myFuntion() {   
+        var x=parseInt(document.getElementById("today").value);
+        // x%2==0 ?document.getElementById("demo").innerHTML="la so chan":
+        // document.getElementById("demo").innerHTML=" la so le";
+        if (x==1)
+        {
+            document.getElementById("display").innerHTML="chu nhat"
+        }else if (x==2)
+        {
+
+            document.getElementById("display").innerHTML="thu 2"
+        }else if(x==3)
+        {
+            
+            document.getElementById("display").innerHTML="thu 3"
+        }else if(x==4)
+        {
+
+            document.getElementById("display").innerHTML="thu 4"
+        }else if(x==5)
+        {
+            
+            document.getElementById("display").innerHTML="thu 5"
+        }else if(x==6)
+        {
+            
+            document.getElementById("display").innerHTML="thu 6"
+        }else if(x==7)
+        {
+
+            document.getElementById("display").innerHTML="thu 7"
+        }else
+        {
+            
+            document.getElementById("display").innerHTML="khong hop le"
+        }
+        
+    }
+    </script>
+    
+</body>
+</html>
